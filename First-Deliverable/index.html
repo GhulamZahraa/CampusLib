@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smart Campus Library | CampusLib</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-campus border-bottom sticky-top">
+        <div class="container py-2">
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-campus" href="index.html">
+                <span class="brand-mark"><i class="bi bi-book-half"></i></span> CampusLib
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-sm-center gap-sm-3">
+                    <li class="nav-item"><a class="nav-link text-campus" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link text-campus" href="#how-it-works">How it works</a></li>
+                    <li class="nav-item"><a class="nav-link text-campus" href="#books">Books</a></li>
+                    <li class="nav-item"><a class="btn btn-outline-campus px-4" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="btn btn-campus px-4" href="signup.html">Join CampusLib</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="container py-5">
+            <div class="hero-panel rounded-4 p-4 p-lg-5">
+                <div class="row align-items-center g-5 py-lg-3">
+                    <div class="col-lg-7">
+                        <span class="badge rounded-pill bg-campus-soft text-campus px-3 py-2 mb-4">A smarter campus library experience</span>
+                        <h1 class="display-3 fw-bold hero-title text-campus mb-4">Your campus library,<br> <span class="text-success-emphasis">reimagined.</span></h1>
+                        <p class="lead text-campus-muted mb-4">Discover books, check availability, and reserve what you need — all through one simple university library portal.</p>
+                        <div class="d-flex flex-wrap gap-3">
+                            <a href="signup.html" class="btn btn-campus btn-lg px-4">Get started <i class="bi bi-arrow-right ms-2"></i></a>
+                            <a href="#books" class="btn btn-outline-campus btn-lg px-4">Explore books</a>
+                        </div>
+                        <div class="row g-3 mt-4">
+                            <div class="col-4"><div class="fw-bold fs-4 text-campus">24/7</div><small class="text-campus-muted">Online access</small></div>
+                            <div class="col-4"><div class="fw-bold fs-4 text-campus">Easy</div><small class="text-campus-muted">Book discovery</small></div>
+                            <div class="col-4"><div class="fw-bold fs-4 text-campus">One</div><small class="text-campus-muted">Campus portal</small></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="card card-campus border-0 p-3 p-lg-4">
+                            <div class="rounded-4 bg-campus-soft p-4 text-center">
+                                <i class="bi bi-journal-richtext display-1 text-campus"></i>
+                                <h3 class="h4 fw-bold text-campus mt-3">A library that works with you</h3>
+                                <p class="text-campus-muted mb-0">Find your next great read without the extra steps.</p>
+                            </div>
+                            <div class="row g-2 mt-2">
+                                <div class="col-6"><div class="bg-light rounded-3 p-3"><i class="bi bi-search text-campus fs-4"></i><div class="fw-semibold mt-2">Discover</div><small class="text-campus-muted">Find resources</small></div></div>
+                                <div class="col-6"><div class="bg-light rounded-3 p-3"><i class="bi bi-bookmark-check text-campus fs-4"></i><div class="fw-semibold mt-2">Reserve</div><small class="text-campus-muted">Save your copy</small></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5" id="features">
+            <div class="text-center mb-5">
+                <div class="section-kicker mb-2">Made for campus life</div>
+                <h2 class="display-6 fw-bold text-campus">Everything you need in one place</h2>
+                <p class="text-campus-muted">A smoother way for students and library staff to manage library resources.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4"><div class="card card-campus h-100 p-4"><div class="stat-icon mb-3"><i class="bi bi-search fs-4"></i></div><h3 class="h5 fw-bold text-campus">Find books faster</h3><p class="text-campus-muted mb-0">Browse the catalogue and discover books by title, author, or category.</p></div></div>
+                <div class="col-md-4"><div class="card card-campus h-100 p-4"><div class="stat-icon mb-3"><i class="bi bi-calendar-check fs-4"></i></div><h3 class="h5 fw-bold text-campus">Reserve with ease</h3><p class="text-campus-muted mb-0">Check availability and place a reservation through your student account.</p></div></div>
+                <div class="col-md-4"><div class="card card-campus h-100 p-4"><div class="stat-icon mb-3"><i class="bi bi-person-check fs-4"></i></div><h3 class="h5 fw-bold text-campus">Stay organized</h3><p class="text-campus-muted mb-0">Keep track of borrowed books, due dates, and reservation updates.</p></div></div>
+            </div>
+        </section>
+
+        <section class="container py-5" id="how-it-works">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5"><div class="section-kicker mb-2">Simple process</div><h2 class="display-6 fw-bold text-campus">Your next book is only a few steps away.</h2><p class="text-campus-muted">CampusLib keeps the library experience clear, convenient, and connected.</p><a href="signup.html" class="btn btn-campus mt-2">Create student account</a></div>
+                <div class="col-lg-7">
+                    <div class="row g-3">
+                        <div class="col-sm-4"><div class="card card-campus h-100 p-3"><span class="badge bg-campus-soft text-campus rounded-pill align-self-start">01</span><i class="bi bi-person-plus fs-2 text-campus my-3"></i><h3 class="h6 fw-bold">Sign up</h3><p class="small text-campus-muted mb-0">Create your student account.</p></div></div>
+                        <div class="col-sm-4"><div class="card card-campus h-100 p-3"><span class="badge bg-campus-soft text-campus rounded-pill align-self-start">02</span><i class="bi bi-book fs-2 text-campus my-3"></i><h3 class="h6 fw-bold">Explore</h3><p class="small text-campus-muted mb-0">Search the library catalogue.</p></div></div>
+                        <div class="col-sm-4"><div class="card card-campus h-100 p-3"><span class="badge bg-campus-soft text-campus rounded-pill align-self-start">03</span><i class="bi bi-bookmark-check fs-2 text-campus my-3"></i><h3 class="h6 fw-bold">Reserve</h3><p class="small text-campus-muted mb-0">Request an available book.</p></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5" id="books">
+            <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-4"><div><div class="section-kicker mb-2">Explore the collection</div><h2 class="display-6 fw-bold text-campus mb-0">Featured books</h2></div><a href="login.html" class="btn btn-outline-campus">Browse catalogue <i class="bi bi-arrow-right ms-1"></i></a></div>
+            <div class="row g-4">
+                <div class="col-6 col-lg-3"><div class="card card-campus h-100 p-3"><div class="book-cover mb-3"><i class="bi bi-code-slash display-3"></i></div><span class="small text-campus-muted">Computer Science</span><h3 class="h6 fw-bold mt-1">Clean Code</h3><small class="text-success">Availability: Check after login</small></div></div>
+                <div class="col-6 col-lg-3"><div class="card card-campus h-100 p-3"><div class="book-cover mb-3"><i class="bi bi-calculator display-3"></i></div><span class="small text-campus-muted">Mathematics</span><h3 class="h6 fw-bold mt-1">Calculus</h3><small class="text-success">Availability: Check after login</small></div></div>
+                <div class="col-6 col-lg-3"><div class="card card-campus h-100 p-3"><div class="book-cover mb-3"><i class="bi bi-cpu display-3"></i></div><span class="small text-campus-muted">Technology</span><h3 class="h6 fw-bold mt-1">Artificial Intelligence</h3><small class="text-success">Availability: Check after login</small></div></div>
+                <div class="col-6 col-lg-3"><div class="card card-campus h-100 p-3"><div class="book-cover mb-3"><i class="bi bi-lightbulb display-3"></i></div><span class="small text-campus-muted">Personal Growth</span><h3 class="h6 fw-bold mt-1">The Alchemist</h3><small class="text-success">Availability: Check after login</small></div></div>
+            </div>
+        </section>
+
+        <section class="container py-5">
+            <div class="bg-campus rounded-4 p-4 p-lg-5 text-white text-center">
+                <h2 class="display-6 fw-bold">Make your library experience simpler.</h2>
+                <p class="text-white-50 mb-4">Join CampusLib and keep your academic resources within reach.</p>
+                <a href="signup.html" class="btn btn-light btn-lg px-4 text-campus fw-semibold">Create your account</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-section mt-5 pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4 pb-4">
+                <div class="col-lg-5 col-md-6">
+                    <a href="index.html" class="d-inline-flex align-items-center gap-2 text-white text-decoration-none fw-bold fs-5 mb-3">
+                        <span class="brand-mark bg-white text-campus"><i class="bi bi-book-half"></i></span> CampusLib
+                    </a>
+                    <p class="footer-description mb-0">CampusLib is a smart campus library and book reservation portal designed to make discovering, accessing, and managing academic resources easier for students and library staff.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#books">Books</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <h6 class="fw-bold mb-3">Account</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="signup.html">Student Registration</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 pt-2 footer-bottom">
+                <span>© 2026 CampusLib. All rights reserved.</span>
+                <span>Smart Campus Library &amp; Book Reservation Portal</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
